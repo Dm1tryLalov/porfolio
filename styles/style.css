@@ -35,17 +35,42 @@ h1 {
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  margin: 40px 60px 0;
+  margin: 30px 60px 0;
+}
+
+.button-block {
+  display: inline-block;
+  border: 2px solid;
+  border-color: #4B321D;
+  border-radius: 3px;
+}
+
+.button-text {
+  margin: 10px 17px;
+  color: #4B321D;
+  font-size: 20px;
+  line-height: 29px;
 }
 
 .navbar {
   display: flex;
-  gap: 33%;
+  gap: 50%;
+  margin-bottom: 10%;
 }
 
 .nav-links_list {
   display: flex;
   gap: 36px;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin-bottom: 90px;
+}
+
+header h1 {
+  margin-bottom: 136px;
 }
 
 .title_text {
