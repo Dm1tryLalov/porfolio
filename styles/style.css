@@ -39,11 +39,25 @@ h1 {
   margin: 30px 60px 0;
 }
 
+.button-position-start {
+  display: flex;  
+  justify-content: baseline;
+  margin-left: 7%;
+}
+
+.button-position-end {
+  display: flex;  
+  justify-content: end;
+  margin-right: 7%;
+}
+
 .button-block {
   display: inline-block;
   border: 2px solid;
   border-color: #4B321D;
   border-radius: 3px;
+  margin-top: 4%;
+  margin-bottom: 6%;
 }
 
 .button-text {
@@ -73,10 +87,19 @@ h1 {
 
 .preview_block {
   display: flex;
-  flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
+  flex-direction: row-reverse;
   gap: 7%;
+  margin-bottom: 6%;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.no-reverse {
+  flex-direction: row;
 }
 
 .preview_text {
@@ -86,4 +109,12 @@ h1 {
 
 .preview_photo {
   border-radius: 16px;
+}
+
+.advantage-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7%;
+  margin-top: 6%;
 }
